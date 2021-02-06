@@ -19,9 +19,10 @@ namespace OOP1
             //PascalCase //camelCase
             //case sensilive
             ProductManager productManager = new ProductManager();
-            string isim = "Engin";
-            productManager.Add();
+            productManager.Add(product1);
+            Console.WriteLine(product1.ProductName);
 
+            
 
 
 

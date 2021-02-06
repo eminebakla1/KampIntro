@@ -6,9 +6,21 @@ namespace OOP1
 {
     class ProductManager
     {
-        public void Add(Product )
+        //encapsulation
+        // void diye belirtilen metotlar--emir kipindeki işler.git yap bitir...
+        public void Add(Product product )
         {
-            4.ders 39.37 dk
+            Console.WriteLine(product.ProductName +" eklendi." );
         }
+        public void Update(Product product) //güncelleme demek...
+        {
+            Console.WriteLine(product.ProductName + " güncellendi.");
+        }
+
+
+
     }
 }
+
+// int,double,bool...değer tip
+//diziler,class,abstract class,interface...referans tip
